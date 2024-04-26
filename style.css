@@ -553,3 +553,10 @@ element-footer h5{
   flex-basis: 15%;
   justify-content: center;
   font-weight: bold;
+
+  @media (max-width:680px){
+  .column-2.carta{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+  
